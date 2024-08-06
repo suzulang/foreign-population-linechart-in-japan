@@ -1,0 +1,1363 @@
+{
+    "GET_STATS_DATA": {
+        "RESULT": {
+            "STATUS": 1,
+            "ERROR_MSG": "正常に終了しましたが、該当データはありませんでした。",
+            "DATE": "2024-08-06T14:24:41.228+09:00"
+        },
+        "PARAMETER": {
+            "LANG": "J",
+            "STATS_DATA_ID": "0003147260",
+            "NARROWING_COND": {
+                "CODE_TAB_SELECT": 101,
+                "CODE_CAT02_SELECT": 11,
+                "CODE_TIME_SELECT": 2012000606
+            },
+            "DATA_FORMAT": "J",
+            "START_POSITION": 1,
+            "METAGET_FLG": "Y",
+            "EXPLANATION_GET_FLG": "Y",
+            "ANNOTATION_GET_FLG": "Y",
+            "REPLACE_SP_CHARS": 0,
+            "CNT_GET_FLG": "N",
+            "SECTION_HEADER_FLG": 1
+        },
+        "STATISTICAL_DATA": {
+            "RESULT_INF": {
+                "TOTAL_NUMBER": 0
+            },
+            "TABLE_INF": {
+                "@id": "0003147260",
+                "STAT_NAME": {
+                    "@code": "00250012",
+                    "$": "在留外国人統計（旧登録外国人統計）"
+                },
+                "GOV_ORG": {
+                    "@code": "00250",
+                    "$": "法務省"
+                },
+                "STATISTICS_NAME": "在留外国人統計（旧登録外国人統計） 在留外国人統計",
+                "TITLE": {
+                    "@no": "02-1",
+                    "$": "国籍・地域別　年齢・男女別　在留外国人"
+                },
+                "CYCLE": "半期",
+                "SURVEY_DATE": 0,
+                "OPEN_DATE": "2019-03-29",
+                "SMALL_AREA": 0,
+                "COLLECT_AREA": "該当なし",
+                "MAIN_CATEGORY": {
+                    "@code": "02",
+                    "$": "人口・世帯"
+                },
+                "SUB_CATEGORY": {
+                    "@code": "01",
+                    "$": "人口"
+                },
+                "OVERALL_TOTAL_NUMBER": 336004,
+                "UPDATED_DATE": "2024-07-03",
+                "STATISTICS_NAME_SPEC": {
+                    "TABULATION_CATEGORY": "在留外国人統計（旧登録外国人統計）",
+                    "TABULATION_SUB_CATEGORY1": "在留外国人統計"
+                },
+                "DESCRIPTION": "",
+                "TITLE_SPEC": {
+                    "TABLE_NAME": "国籍・地域別　年齢・男女別　在留外国人"
+                },
+                "releaseCount": 3
+            },
+            "CLASS_INF": {
+                "CLASS_OBJ": [
+                    {
+                        "@id": "tab",
+                        "@name": "表章項目",
+                        "CLASS": {
+                            "@code": "101",
+                            "@name": "人数",
+                            "@level": "",
+                            "@unit": "人"
+                        }
+                    },
+                    {
+                        "@id": "cat01",
+                        "@name": "性別",
+                        "CLASS": [
+                            {
+                                "@code": "11",
+                                "@name": "計",
+                                "@level": "1"
+                            },
+                            {
+                                "@code": "12",
+                                "@name": "男",
+                                "@level": "2",
+                                "@parentCode": "11"
+                            },
+                            {
+                                "@code": "13",
+                                "@name": "女",
+                                "@level": "2",
+                                "@parentCode": "11"
+                            }
+                        ]
+                    },
+                    {
+                        "@id": "cat02",
+                        "@name": "年齢",
+                        "CLASS": {
+                            "@code": "11",
+                            "@name": "総数",
+                            "@level": "1"
+                        }
+                    },
+                    {
+                        "@id": "cat03",
+                        "@name": "国籍",
+                        "@description": "「法務省HP >在留外国人統計 >（３）国籍・地域に係る注意事項」<URL：http://www.moj.go.jp/housei/toukei/housei05_00021.html>をご覧ください。",
+                        "CLASS": [
+                            {
+                                "@code": "000",
+                                "@name": "総数",
+                                "@level": "1"
+                            },
+                            {
+                                "@code": "100",
+                                "@name": "アジア",
+                                "@level": "2",
+                                "@parentCode": "000"
+                            },
+                            {
+                                "@code": "130",
+                                "@name": "アフガニスタン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "147",
+                                "@name": "アラブ首長国連邦",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "122",
+                                "@name": "ミャンマー",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "135",
+                                "@name": "バーレーン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "132",
+                                "@name": "ブータン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "127",
+                                "@name": "バングラデシュ",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "116",
+                                "@name": "ブルネイ",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "120",
+                                "@name": "カンボジア",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "125",
+                                "@name": "スリランカ",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "105",
+                                "@name": "中国",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "106",
+                                "@name": "台湾",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "233",
+                                "@name": "キプロス",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "128",
+                                "@name": "東ティモール",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "123",
+                                "@name": "インド",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "118",
+                                "@name": "インドネシア",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "133",
+                                "@name": "イラン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "134",
+                                "@name": "イラク",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "143",
+                                "@name": "イスラエル",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "144",
+                                "@name": "ヨルダン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "103",
+                                "@name": "韓国",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "104",
+                                "@name": "朝鮮",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "901",
+                                "@name": "韓国・朝鮮",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "138",
+                                "@name": "クウェート",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "121",
+                                "@name": "ラオス",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "146",
+                                "@name": "レバノン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "113",
+                                "@name": "マレーシア",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "107",
+                                "@name": "モンゴル",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "141",
+                                "@name": "オマーン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "126",
+                                "@name": "モルディブ",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "131",
+                                "@name": "ネパール",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "124",
+                                "@name": "パキスタン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "117",
+                                "@name": "フィリピン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "140",
+                                "@name": "カタール",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "137",
+                                "@name": "サウジアラビア",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "145",
+                                "@name": "シリア",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "112",
+                                "@name": "シンガポール",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "111",
+                                "@name": "タイ",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "234",
+                                "@name": "トルコ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "110",
+                                "@name": "ベトナム",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "149",
+                                "@name": "イエメン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "902",
+                                "@name": "パレスチナ",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "200",
+                                "@name": "ヨーロッパ",
+                                "@level": "2",
+                                "@parentCode": "000"
+                            },
+                            {
+                                "@code": "229",
+                                "@name": "アルバニア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "225",
+                                "@name": "オーストリア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "208",
+                                "@name": "ベルギー",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "232",
+                                "@name": "ブルガリア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "239",
+                                "@name": "ベラルーシ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "241",
+                                "@name": "クロアチア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "245",
+                                "@name": "チェコ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "204",
+                                "@name": "デンマーク",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "235",
+                                "@name": "エストニア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "222",
+                                "@name": "フィンランド",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "210",
+                                "@name": "フランス",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "213",
+                                "@name": "ドイツ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "230",
+                                "@name": "ギリシャ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "227",
+                                "@name": "ハンガリー",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "201",
+                                "@name": "アイスランド",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "206",
+                                "@name": "アイルランド",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "220",
+                                "@name": "イタリア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "154",
+                                "@name": "キルギス",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "153",
+                                "@name": "カザフスタン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "291",
+                                "@name": "リヒテンシュタイン",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "209",
+                                "@name": "ルクセンブルク",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "236",
+                                "@name": "ラトビア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "237",
+                                "@name": "リトアニア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "211",
+                                "@name": "モナコ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "221",
+                                "@name": "マルタ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "240",
+                                "@name": "モルドバ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "244",
+                                "@name": "マケドニア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "207",
+                                "@name": "オランダ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "202",
+                                "@name": "ノルウェー",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "223",
+                                "@name": "ポーランド",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "217",
+                                "@name": "ポルトガル",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "231",
+                                "@name": "ルーマニア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "224",
+                                "@name": "ロシア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "292",
+                                "@name": "サンマリノ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "218",
+                                "@name": "スペイン",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "203",
+                                "@name": "スウェーデン",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "215",
+                                "@name": "スイス",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "156",
+                                "@name": "トルクメニスタン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "155",
+                                "@name": "タジキスタン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "205",
+                                "@name": "英国",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "238",
+                                "@name": "ウクライナ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "152",
+                                "@name": "ウズベキスタン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "904",
+                                "@name": "ユーゴスラヴィア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "151",
+                                "@name": "アルメニア",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "150",
+                                "@name": "アゼルバイジャン",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "212",
+                                "@name": "アンドラ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "157",
+                                "@name": "ジョージア（グルジア）",
+                                "@level": "3",
+                                "@parentCode": "100"
+                            },
+                            {
+                                "@code": "242",
+                                "@name": "スロベニア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "246",
+                                "@name": "スロバキア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "243",
+                                "@name": "ボスニア・ヘルツェゴビナ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "905",
+                                "@name": "セルビア・モンテネグロ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "247",
+                                "@name": "モンテネグロ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "228",
+                                "@name": "セルビア",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "248",
+                                "@name": "コソボ",
+                                "@level": "3",
+                                "@parentCode": "200"
+                            },
+                            {
+                                "@code": "500",
+                                "@name": "アフリカ",
+                                "@level": "2",
+                                "@parentCode": "000"
+                            },
+                            {
+                                "@code": "503",
+                                "@name": "アルジェリア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "534",
+                                "@name": "ブルンジ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "555",
+                                "@name": "ボツワナ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "527",
+                                "@name": "カメルーン",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "529",
+                                "@name": "中央アフリカ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "528",
+                                "@name": "チャド",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "532",
+                                "@name": "コンゴ共和国",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "533",
+                                "@name": "コンゴ民主共和国",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "522",
+                                "@name": "カーボベルデ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "558",
+                                "@name": "コモロ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "519",
+                                "@name": "ベナン",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "539",
+                                "@name": "ジブチ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "538",
+                                "@name": "エチオピア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "530",
+                                "@name": "赤道ギニア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "559",
+                                "@name": "エリトリア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "531",
+                                "@name": "ガボン",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "517",
+                                "@name": "ガーナ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "513",
+                                "@name": "ギニア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "511",
+                                "@name": "ガンビア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "512",
+                                "@name": "ギニアビサウ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "516",
+                                "@name": "コートジボワール",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "541",
+                                "@name": "ケニア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "515",
+                                "@name": "リベリア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "505",
+                                "@name": "リビア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "552",
+                                "@name": "レソト",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "546",
+                                "@name": "マダガスカル",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "520",
+                                "@name": "マリ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "509",
+                                "@name": "モーリタニア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "501",
+                                "@name": "モロッコ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "553",
+                                "@name": "マラウイ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "547",
+                                "@name": "モーリシャス",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "545",
+                                "@name": "モザンビーク",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "525",
+                                "@name": "ニジェール",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "524",
+                                "@name": "ナイジェリア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "550",
+                                "@name": "ナミビア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "526",
+                                "@name": "ルワンダ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "510",
+                                "@name": "セネガル",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "514",
+                                "@name": "シエラレオネ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "540",
+                                "@name": "ソマリア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "507",
+                                "@name": "スーダン",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "556",
+                                "@name": "スワジランド",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "536",
+                                "@name": "サントメ・プリンシペ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "544",
+                                "@name": "セーシェル",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "543",
+                                "@name": "タンザニア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "518",
+                                "@name": "トーゴ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "504",
+                                "@name": "チュニジア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "542",
+                                "@name": "ウガンダ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "551",
+                                "@name": "南アフリカ共和国",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "506",
+                                "@name": "エジプト",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "521",
+                                "@name": "ブルキナファソ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "554",
+                                "@name": "ザンビア",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "549",
+                                "@name": "ジンバブエ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "535",
+                                "@name": "アンゴラ",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "560",
+                                "@name": "南スーダン共和国",
+                                "@level": "3",
+                                "@parentCode": "500"
+                            },
+                            {
+                                "@code": "300",
+                                "@name": "北米",
+                                "@level": "2",
+                                "@parentCode": "000"
+                            },
+                            {
+                                "@code": "319",
+                                "@name": "バルバドス",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "315",
+                                "@name": "バハマ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "308",
+                                "@name": "ベリーズ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "302",
+                                "@name": "カナダ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "311",
+                                "@name": "コスタリカ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "321",
+                                "@name": "キューバ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "323",
+                                "@name": "ドミニカ共和国",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "333",
+                                "@name": "ドミニカ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "309",
+                                "@name": "エルサルバドル",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "306",
+                                "@name": "グアテマラ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "322",
+                                "@name": "ハイチ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "307",
+                                "@name": "ホンジュラス",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "316",
+                                "@name": "ジャマイカ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "305",
+                                "@name": "メキシコ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "310",
+                                "@name": "ニカラグア",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "312",
+                                "@name": "パナマ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "330",
+                                "@name": "セントルシア",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "336",
+                                "@name": "セントビンセント",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "335",
+                                "@name": "セントクリストファー・ネーヴィス",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "320",
+                                "@name": "トリニダード・トバゴ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "304",
+                                "@name": "米国",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "329",
+                                "@name": "グレナダ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "331",
+                                "@name": "アンティグア・バーブーダ",
+                                "@level": "3",
+                                "@parentCode": "300"
+                            },
+                            {
+                                "@code": "400",
+                                "@name": "南米",
+                                "@level": "2",
+                                "@parentCode": "000"
+                            },
+                            {
+                                "@code": "413",
+                                "@name": "アルゼンチン",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "408",
+                                "@name": "ボリビア",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "410",
+                                "@name": "ブラジル",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "409",
+                                "@name": "チリ",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "401",
+                                "@name": "コロンビア",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "406",
+                                "@name": "エクアドル",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "403",
+                                "@name": "ガイアナ",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "411",
+                                "@name": "パラグアイ",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "407",
+                                "@name": "ペルー",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "404",
+                                "@name": "スリナム",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "412",
+                                "@name": "ウルグアイ",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "402",
+                                "@name": "ベネズエラ",
+                                "@level": "3",
+                                "@parentCode": "400"
+                            },
+                            {
+                                "@code": "600",
+                                "@name": "オセアニア",
+                                "@level": "2",
+                                "@parentCode": "000"
+                            },
+                            {
+                                "@code": "601",
+                                "@name": "オーストラリア",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "612",
+                                "@name": "フィジー",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "615",
+                                "@name": "キリバス",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "625",
+                                "@name": "マーシャル",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "626",
+                                "@name": "ミクロネシア",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "606",
+                                "@name": "ニュージーランド",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "617",
+                                "@name": "ナウル",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "602",
+                                "@name": "パプアニューギニア",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "628",
+                                "@name": "パラオ",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "613",
+                                "@name": "ソロモン",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "614",
+                                "@name": "トンガ",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "624",
+                                "@name": "ツバル",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "611",
+                                "@name": "バヌアツ",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "610",
+                                "@name": "サモア",
+                                "@level": "3",
+                                "@parentCode": "600"
+                            },
+                            {
+                                "@code": "950",
+                                "@name": "無国籍",
+                                "@level": "2",
+                                "@parentCode": "000"
+                            }
+                        ]
+                    },
+                    {
+                        "@id": "time",
+                        "@name": "時間軸（月次）"
+                    }
+                ]
+            }
+        }
+    }
+}
